@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 import React from 'react'
 import { authOptions } from '../api/auth/[...nextauth]/route';
 import { getServerSession } from 'next-auth';
-import { Page } from '@/models/page';
+import { Page } from '@/models/Page';
 import {User} from "@/models/User";
 
 const PageForm = async(formData) => {
